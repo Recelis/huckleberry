@@ -20,6 +20,13 @@ body {
   padding-top: 96px;
 }
 
+.intro-chunk {
+  padding-top: 96px;
+  padding-bottom: 64px;
+  padding-left: 24px;
+  max-width: 416px;
+}
+
 .emphasis {
   color: #009966;
 }
