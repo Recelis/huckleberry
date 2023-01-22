@@ -10,11 +10,42 @@ body {
 }
 
 /* Add styles here! */
-.title {
-  margin-top: 96px;
+.max-width-wrapper {
+  margin: auto;
+  max-width: 800px;
+  
 }
 
-.max-width-wrapper {
-  max-width: 800px;
-  margin: auto;
+.title {
+  padding-top: 96px;
 }
+
+.emphasis {
+  color: #009966;
+}
+
+header {
+  height: 50vh;
+  padding: 24px;
+}
+
+main {
+  background-color: #666666;
+  height: 50vh;
+  padding-top: 72px;
+  padding-bottom: 66px;
+}
+
+main .card {
+  padding: 24px;
+  background-color: white;
+}
+
+.indented-heading {
+  background: #FFBF00;
+  /* width: 50%; */
+  padding-left: 24px;
+  margin-left: -34px;
+  border-bottom: solid #CC9900 8px; 
+}
+
